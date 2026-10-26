@@ -1,0 +1,54 @@
+## [ Visual Studio ]
+# Arquivos de build e pastas de sa�da
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Log]s/
+[Tt]est[Rr]esults/
+
+# Arquivos de solu��o e cache do VS
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+## [ .NET Core ]
+# Arquivos de configura��o de ambiente (Cont�m suas strings de conex�o com o banco)
+appsettings.Development.json
+appsettings.Local.json
+
+# Segredos do usu�rio (User Secrets)
+secrets.json
+
+## [ Entity Framework ]
+# Logs e arquivos tempor�rios de migra��o se houver
+*.db
+*.db-shm
+*.db-wal
+
+## [ VS Code ]
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## [ SO / Diversos ]
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivo CSV de dados (Como voc� est� usando para seed, 
+# se ele for muito grande, � bom ignorar)
+../ArcadeFlow/games.csv 
+
+## [ Packages ]
+*.nupkg
+# NuGet packages directory
+packages/
